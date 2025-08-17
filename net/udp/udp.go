@@ -29,7 +29,7 @@ func startServer(ctx context.Context, addr string) error {
 	buf := make([]byte, 1024)
 
 	for {
-pto		select {
+		select {
 		case <-ctx.Done():
 			return ctx.Err()
 		default:
