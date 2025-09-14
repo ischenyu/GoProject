@@ -7,7 +7,7 @@ import (
 	"net"
 	"sync"
 	"time"
-	_ "git.alistnas.top/paimon/GoProject"
+	_ "github.com/ischenyu/GoProject"
 )
 
 // Packet 代表数据包结构
